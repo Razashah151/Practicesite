@@ -101,6 +101,7 @@ cursor: pointer;
 }
 .small-box1>.icon>img{
     border-radius: 50%;
+    width: 100px;
     
 }
 .small-box1>.box-heading{
