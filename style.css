@@ -117,7 +117,7 @@ cursor: pointer;
 .lefthero{
   position: relative;
   display: flex; 
-
+padding-left: 10%;
 width: 30%;
 
 
