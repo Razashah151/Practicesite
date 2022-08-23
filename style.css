@@ -6,26 +6,38 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+@media screen and (max-width:790px){
+
+}
+label #side-btn{
+  z-index: 1;
+  position: fixed;
+  left: 300px;
+  margin: 5px 0;
+}
 .container1{
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
+
 .navbar{
-
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 90%;
-
-height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+height: 80%;
 box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.1);
   border-radius: 40px;
   background: white;
+ 
 
 }
 .leftlogo{
 padding-left: 40px;
+padding-bottom: 50px;
 }
 .text{
   color: rgb(234, 99, 234);
@@ -33,6 +45,7 @@ padding-left: 40px;
 .navoptions>ul{
 display: flex;
 list-style: none;
+flex-direction: column;
 }
 
 .navoptions>ul>li{
@@ -51,21 +64,20 @@ list-style: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .hero-section1{
-  padding-top: 50px;
+  padding-top: 20px;
     background-color: rgb(200, 87, 200);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
-padding-bottom: 20%;
+
 }
 
 .title1{
-   
-    
+
     color: white;
     text-align: center;
    
