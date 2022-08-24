@@ -11,6 +11,10 @@ body{
   flex-wrap: wrap;
 margin-top: -120px;
     }
+   .sideimage>img{
+    width: 200%;
+    height: 100%;
+   }
 
 }
 
@@ -157,9 +161,7 @@ align-items: center;
 .paragraph2{
   padding-top: 40px;
 }
-.dropdown{
-position: relative;
-}
+
 .dropbtn{
   padding: 16px;
   font-size: 16px;
