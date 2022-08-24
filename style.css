@@ -9,12 +9,7 @@ body{
 @media screen and (max-width:790px){
 
 }
-label #side-btn{
-  z-index: 1;
-  position: fixed;
-  left: 300px;
-  margin: 5px 0;
-}
+
 .container1{
   display: flex;
   align-items: center;
@@ -27,7 +22,7 @@ label #side-btn{
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  width: 50%;
 height: 80%;
 box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.1);
   border-radius: 40px;
@@ -154,4 +149,28 @@ width: 30%;
 }
 .paragraph2{
   padding-top: 40px;
+}
+.dropdown{
+position: relative;
+}
+.dropbtn{
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: purple;
+  background-color: white;
+}
+.dropdown-content{
+  display: none;
+padding: 12px;
+background-color: white;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.link:hover{
+  color: brown;
 }
